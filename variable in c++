@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   string charactername ="Henrry";
+   int characterage;
+   characterage=19 ;
+
+
+
+  cout<<"There once was a man named "<<charactername <<endl;
+  cout<<"he was "<<characterage <<" years old"<<endl;
+
+  charactername="Mike";
+  cout<<"he like the name  "<<charactername <<endl;
+  cout<<"but did not like being "<<characterage <<endl;
+    
+   
+
+    return 0;
+}
