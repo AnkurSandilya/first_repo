@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   
+   
+    string x="Chandraycan Mission";
+    cout<<x.length()<<endl;
+    x[8]='a';
+    cout<<x<<endl;
+
+
+     cout<<x[0]<<endl;
+
+
+    cout<<x.find("Miss",3)<<endl;
+
+    cout<<x.substr(0,9)<<endl;
+   
+
+
+
+   string y="Chanda mama door ke ";
+
+
+   string ysub;
+   ysub=y.substr(0,11);
+   cout<<ysub;
+
+
+   
+   return 0;
+}
