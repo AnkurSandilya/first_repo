@@ -1,0 +1,54 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main ()
+
+
+{
+ 
+cout<<5+5<<endl;
+cout<<6*5<<endl;
+cout<<10/5<<endl;
+cout<<6-5<<endl;
+
+
+
+cout<<10%3<<endl;//for remainder % modulus is used 
+
+cout<<(4+5)*10<<endl;
+
+ int wnum=5;
+    double dnum=5.666;
+
+wnum++;//increament by 1
+wnum--;//Decrement by 1 
+    cout<<wnum<<endl;
+
+    int znum=80;
+ znum+=60; 
+ znum-=50;
+ znum/=40;
+
+
+ cout<<znum;
+
+
+cout<<pow(2,5)<<endl;
+
+
+
+cout<<sqrt(64)<<endl;
+
+cout<<round(6.1 )<<endl;
+
+cout<<ceil(5.1)<<endl;
+
+cout<<floor(5.99)<<endl;
+
+
+cout<<fmax(50,50.2)<<endl;
+cout<<fmin(50,50.2);
+
+ return 0;
+}
