@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   bool b;
+   cout<<"Are you a male ?";
+   cin>>b;
+   cout<<boolalpha<<b<<" you are a male !";
+   //boolalpha manipulator is used to print boolean values as "true"
+    // or "false" instead of the default numeric representation.
+
+
+   return 0;
+    
+}
